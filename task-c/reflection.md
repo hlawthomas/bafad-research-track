@@ -21,7 +21,7 @@ Consider: What patterns did you observe in the SMAP data? How might those patter
 
 **Your response (75–100 words):**
 
-> _Replace this text with your answer._
+The SMAP data showed that anomalies were relatively rare, with only 24 of 500 timesteps (4.8%) labeled as anomalous. I also observed substantial overlap between normal and anomalous values in `chan_00`, suggesting that anomalies may not always appear as obvious extreme values in a single channel. This could complicate an autoencoder-based detector because it must learn relationships across multiple channels and over time rather than simply identify unusually high or low values. These patterns suggest training the autoencoder primarily on normal observations and using reconstruction error across multiple telemetry channels to identify unusual multivariate patterns.
 
 ---
 
@@ -33,7 +33,7 @@ Be honest. There are no wrong answers — this helps us plan the onboarding sche
 
 **Your response (75–100 words):**
 
-> _Replace this text with your answer._
+One gap I expect to encounter is becoming more proficient with Python for statistical analysis and machine learning. I have some experience working with Python and pandas, but I am still developing confidence with more advanced libraries and techniques used to build, train, and evaluate machine-learning models. I also expect to need a deeper understanding of statistical concepts related to anomaly detection, such as model evaluation, threshold selection, class imbalance, and distinguishing meaningful anomalies from normal variation.
 
 ---
 
